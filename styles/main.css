@@ -11,13 +11,12 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    font: 50px;
+    font-size: px;
 }
 
 main {
     margin: 0px auto;
-    width: 80%;
-    background: #f3f6f6;
+    width: 100%;
     
 }
 
@@ -26,8 +25,17 @@ table {
     border-spacing: 0px;
 }
 
+main > * {
+    margin: 10px auto;
+}
+
 main > table {
     width: 100%;
+    background: #f3f6f6;
+}
+
+.footerdiv {
+    color: #0293a4;
 }
 
 .lefttd {
