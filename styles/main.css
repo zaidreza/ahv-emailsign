@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +12,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', serif;
     font-size: px;
 }
 
@@ -26,12 +28,12 @@ table {
 }
 
 main > * {
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 main > table {
     width: 100%;
-    background: #f3f6f6;
+    background: #f7fafa;
 }
 
 .footerdiv {
